@@ -1,0 +1,397 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <meta charset="UTF-8">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+.hero-image {
+  background-image: url("nonvegtop.jpg");
+  height: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-image {
+    opacity: 0.6;
+    filter: alpha(opacity=20); /* For IE8 and earlier */
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: yellow;
+  }
+   .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+}
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:visited {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+</style>
+</head>
+<body>
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:60px">GREENS AND MEATS</h1>
+    <h2 style="color:Turquoise;">Rejoice The Taste Of Life</h2>
+	<div class="w3-display-bottom w3-padding">
+    <span class="w3-tag w3-xlarge">Open from 10am to 11pm</span>
+  </div>
+  </div>
+</div>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="orderform.html">Online orders</a></li>
+        <li><a href="#">Deals</a></li>
+        <li><a href="#">Contact</a></li>
+		<li><a href="form.html">Rate Us</a></li>
+<li><a href="#">Help</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-envelope"></span>Mail</a></a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Order Food</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<h1 style="color:Crimson; font-size:50px; text-align=center;"><i>PREFER YOUR TASTE IN NON-VEGETARIAN STYLE</i></h2>
+<h1 style="text-align:center; color:Chartreuse;">Food- A Taste Of Good Life</h1>
+<h3 style="text-align=justify;">Variety is the spice of life and our collection of Non-vegetarian recipes gives you plenty of that!we have a massive collection of zesty, aromatic and delicious cuisines that will make you come back once again.From international cuisines to quick and easy meals ideas, GREENS AND MEATS is where you can find your craving!!! </h3>
+<div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+	<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="nonveg.jpg" alt="food" width="100%">
+	<script>
+function bigImg(x) {
+    x.style.height = "250px";
+    x.style.width = "350px";
+}
+
+function normalImg(x) {
+    x.style.height = "200px";
+    x.style.width = "300px";
+}
+</script>
+	  <h4>SOUTH-INDIAN</h4>
+      <h5>The Perfect Cuisine for your Hunger</h5>
+    </div>
+<div class="w3-quarter">
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="nonnorthindian.jpg" alt="food" width="100%">
+	<script>
+function bigImg(x) {
+    x.style.height = "250px";
+    x.style.width = "350px";
+}
+
+function normalImg(x) {
+    x.style.height = "200px";
+    x.style.width = "300px";
+}
+</script>
+	  <h4>NORTH-INDIAN</h4>
+      <h5>Perfect zesty food to grave your craving</h5>
+    </div>
+    <div class="w3-quarter">
+      <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="firechicken.jpg" alt="food" width="100%">
+	<script>
+function bigImg(x) {
+    x.style.height = "250px";
+    x.style.width = "350px";
+}
+
+function normalImg(x) {
+    x.style.height = "200px";
+    x.style.width = "300px";
+}
+</script>
+	  <h4>CHINESE</h4>
+      <h5>A Real Nice Classic one</h5>
+    </div>
+	</div>
+<h1 style="color:Red; font-size:45px; text-align:left;"><i>CLICK IT TASTE IT!!!</i></h1>
+
+	<h2 style="color:DarkMagenta; font-size:40px; text-align:center;"><b>South-Indian Cuisine</b></h2>
+	
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="panel panel-primary">
+        <div class="panel-heading">CHICKEN AND EGG BIRIYANI</div>
+        <div class="panel-body"><img src="chickenbiriyanicut.PNG" class="img-responsive" style="width:416px" "height:558px" alt="Image" usemap="#planetmap">
+<map name="planetmap">
+  <area shape="rect" coords="0,0,100,555" alt="biriyani" href="mapbiriyani.html">
+  <area shape="rect" coords="414,4,110,555" alt="eggbiriyani" href="mapegg.html">
+</map>
+
+
+
+</div>
+        
+      </div>
+    </div>
+    <div class="col-sm-3"> 
+      <div class="panel panel-danger">
+        <div class="panel-heading">FISH FRY</div>
+        <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="fishfrycut.PNG" class="img-responsive" style="width:95%" alt="Image"></a></div>
+        
+      </div>
+    </div>
+    <div class="col-sm-3"> 
+      <div class="panel panel-success">
+        <div class="panel-heading">MUTTON FRY</div>
+        <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="muttonfry.PNG" class="img-responsive" style="width:150%" alt="Image"></a></div>
+        
+      </div>
+    </div>
+	<div class="col-sm-3"> 
+      <div class="panel panel-warning">
+        <div class="panel-heading">CHILLI PRAWNS</div>
+        <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="chilliprawns.PNG" class="img-responsive" style="width:100%" alt="Image"></a></div>
+        
+      </div>
+    </div>
+  </div>
+</div><br>
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="panel panel-primary">
+        <div class="panel-heading">CHICKEN FRY</div>
+        <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="chickenfry.PNG" class="img-responsive" style="width:100%" alt="Image"></a></div>
+       
+      </div>
+    </div>
+    <div class="col-sm-3"> 
+      <div class="panel panel-danger">
+        <div class="panel-heading">CHILLI CHICKEN</div>
+        <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="chillichicken.PNG" class="img-responsive" style="width:100%" alt="Image"></a></div>
+        
+      </div>
+    </div>
+     <div class="col-sm-3"> 
+          <div class="panel panel-success">
+        <div class="panel-heading">MUTTON KEEMA</div>
+        <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="muttonkeema.PNG" class="img-responsive" style="width:100%" alt="Image"></a></div>
+        
+      </div>
+    </div>
+	<div class="col-sm-3"> 
+          <div class="panel panel-warning">
+        <div class="panel-heading">FISH BIRIYANI</div>
+        <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="fishbiriyani.PNG" class="img-responsive" style="width:90%" alt="Image"></a></div>
+        
+      </div>
+    </div>
+	 </div>
+</div><br>
+<h2 style="color:DarkMagenta; font-size:40px; text-align:center;"><b>North-Indian Cuisine</b></h2>
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="panel panel-primary">
+        <div class="panel-heading">CHICKEN NUGGETS</div>
+        <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="chickennuggtes.PNG" class="img-responsive" style="width:100%" alt="Image"></a></div>
+       
+      </div>
+    </div>
+    <div class="col-sm-3"> 
+      <div class="panel panel-danger">
+        <div class="panel-heading">CHICKEN LOLLIPOP</div>
+        <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="chickenlollipop.PNG" class="img-responsive" style="width:90%" alt="Image"></a></div>
+        
+      </div>
+    </div>
+    <div class="col-sm-3"> 
+      <div class="panel panel-success">
+        <div class="panel-heading">MUTTON KEEMA</div>
+        <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="muttonkeema.PNG" class="img-responsive" style="width:150%" alt="Image"></a></div>
+        
+      </div>
+    </div>
+	<div class="col-sm-3"> 
+      <div class="panel panel-warning">
+        <div class="panel-heading">PEPPER CHICKEN</div>
+        <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="pepperchickencut.PNG" class="img-responsive" style="width:100%" alt="Image"></a></div>
+        
+      </div>
+    </div>
+  </div>
+</div><br>
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="panel panel-primary">
+        <div class="panel-heading">GRILLED FISH</div>
+        <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="grilledfish.PNG" class="img-responsive" style="width:100%" alt="Image"></a></div>
+       
+      </div>
+    </div>
+    <div class="col-sm-3"> 
+      <div class="panel panel-danger">
+        <div class="panel-heading">CHICKEN 65</div>
+        <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="chicken65cut.PNG" class="img-responsive" style="width:100%" "height:150%" alt="Image"></a></div>
+        
+      </div>
+    </div>
+     <div class="col-sm-3"> 
+          <div class="panel panel-success">
+        <div class="panel-heading">CHICKEN TIKKA</div>
+        <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="chickentikkacut.PNG" class="img-responsive" style="width:95%" "height:70%" alt="Image"></a></div>
+        
+      </div>
+    </div>
+	<div class="col-sm-3"> 
+          <div class="panel panel-warning">
+        <div class="panel-heading">PRAWN PAKORA</div>
+        <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="prawnpakora.PNG"class="img-responsive" style="width:100%;" alt="Image"></a></div>
+        
+      </div>
+    </div>
+	 </div>
+</div><br>
+<h2 style="color:DarkMagenta; font-size:40px; text-align:center;"><b>Chinese Cuisine</b></h2>
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="panel panel-primary">
+        <div class="panel-heading">CHICKEN NOODLES</div>
+        <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="chickennoodlescut.jpg" class="img-responsive" style="width:200%" alt="Image"></a></div>
+       
+      </div>
+    </div>
+    <div class="col-sm-3"> 
+      <div class="panel panel-danger">
+        <div class="panel-heading">MUTTON MANCHURIAN</div>
+       <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="chickenmanchurian.PNG" class="img-responsive" style="width:300%" alt="Image"></a></div>
+        
+      </div>
+    </div>
+    <div class="col-sm-3"> 
+      <div class="panel panel-success">
+        <div class="panel-heading">CHICKEN SHAWARMA</div>
+        <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="chickenshawarma.PNG" class="img-responsive" style="width:150%" alt="Image"></a></div>
+        
+      </div>
+    </div>
+	<div class="col-sm-3"> 
+      <div class="panel panel-warning">
+        <div class="panel-heading">POP CORN CHICKEN</div>
+        <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="popcornchicken.PNG" class="img-responsive" style="width:100%" alt="Image"></a></div>
+        
+      </div>
+    </div>
+  </div>
+</div><br>
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="panel panel-primary">
+        <div class="panel-heading">SCHEZUAN CHICKEN</div>
+        <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="schezuanchicken.PNG" class="img-responsive" style="width:100%" alt="Image"></a></div>
+       
+      </div>
+    </div>
+    <div class="col-sm-3"> 
+      <div class="panel panel-danger">
+        <div class="panel-heading">MUTTON FRIED RICE</div>
+        <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="chickenbiriyanicut.PNG" class="img-responsive" style="width:100%" "height:150%" alt="Image"></a></div>
+        
+      </div>
+    </div>
+     <div class="col-sm-3"> 
+          <div class="panel panel-success">
+        <div class="panel-heading">CHICKEN SANDWICH</div>
+        <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="chickensandwich.PNG" class="img-responsive" style="width:150%" alt="Image"></a></div>
+        
+      </div>
+    </div>
+	<div class="col-sm-3"> 
+          <div class="panel panel-warning">
+        <div class="panel-heading">CHICKEN PASTA</div>
+        <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="chickenpasta.PNG" class="img-responsive" style="width:100%;" alt="Image"></a></div>
+        
+      </div>
+    </div>
+	 </div>
+</div><br>
+
+<div class="w3-container w3-black w3-padding-32">
+    <h1>Subscribe</h1>
+    <p>To get special offers and free Coupons:</p>
+    <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+    <button type="button" class="w3-button w3-red w3-margin-bottom">Subscribe</button>
+  </div>
+
+<!-- Footer -->
+  <footer class="w3-padding-64 w3-light-grey w3-small w3-center" id="footer">
+    <div class="w3-row-padding">
+
+      <div class="w3-col">
+        <h4>Store</h4>
+        <p><i class="fa fa-fw fa-map-marker"></i> GREENS AND MEATS</p>
+		<p> COIMBATORE | VELLORE | CHENNAI | SALEM | TRICHY </p>
+        <p><i class="fa fa-fw fa-phone"></i> 9997776660</p>
+        <p><i class="fa fa-fw fa-envelope"></i> info@greensandmeats.com</p>
+        <h4>We accept</h4>
+        <p><i class="fa fa-fw fa-cc-amex"></i> Amex</p>
+        <p><i class="fa fa-fw fa-credit-card"></i> Credit Card</p>
+        <br>
+		FOLLOW US ON:
+        <i class="fa fa-facebook-official w3-hover-opacity w3-large"></i>
+        <i class="fa fa-instagram w3-hover-opacity w3-large"></i>
+        <i class="fa fa-snapchat w3-hover-opacity w3-large"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity w3-large"></i>
+        <i class="fa fa-twitter w3-hover-opacity w3-large"></i>
+        <i class="fa fa-linkedin w3-hover-opacity w3-large"></i>
+      </div>
+    </div>
+  </footer>
+  <!-- End page content -->
+</div>
+
+</body>
+</html>
