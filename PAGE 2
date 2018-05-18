@@ -1,0 +1,437 @@
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+.w3-sidebar a {font-family: "Roboto", sans-serif}
+body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+ .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+</style>
+<body class="w3-content" style="max-width:1200px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px" id="mySidebar">
+  <div class="w3-container w3-display-container w3-padding-16">
+    <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
+    <h3 class="w3-wide"><a href="index.html"><b>HOME</b></a></h3>
+  </div>
+  <div class="w3-padding-64 w3-large w3-text-MediumVioletRed" style="font-weight:bold">
+    <a href="#Pizzas" class="w3-bar-item w3-button">Pizzas</a>
+    <a href="#Desserts" class="w3-bar-item w3-button">Desserts</a>
+    <a href="#Milkshakes" class="w3-bar-item w3-button">Milkshakes</a>
+    <a href="#Burgers" class="w3-bar-item w3-button">Burgers</a>
+    <a href="#Cakes" class="w3-bar-item w3-button">Cakes</a>
+  </div>
+  <a href="#footer" class="w3-bar-item w3-button w3-padding">Contact</a> 
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding" onclick="document.getElementById('newsletter').style.display='block'">Newsletter</a> 
+  <a href="#footer"  class="w3-bar-item w3-button w3-padding">Subscribe</a>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
+  <div class="w3-bar-item w3-padding-24 w3-wide">HOME</div>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:250px">
+
+  <!-- Push down content on small screens -->
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+  
+  <!-- Top header -->
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Deals</a></li>
+		<li><a href="form.html">Rate Us</a></li>
+        <li><a href="#">Contact</a></li>
+<li><a href="#">Help</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-envelope"></span>Mail</a></a></li>
+        <li><a href="#Pizzas"><span class="glyphicon glyphicon-shopping-cart"></span> Order Food</a></li>
+		
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Image header -->
+  <div class="w3-display-container w3-container">
+    <img src="start.jpg" alt="Jeans" style="width:120%" style="opacity:0.7">
+    <div class="w3-display-topleft w3-text-white" style="padding:24px 48px">
+      <h1 class="w3-jumbo w3-hide-small" style="color:yellow;">GREENS AND MEATS</h1>
+      <h1 class="w3-hide-large w3-hide-medium" style="color:yellow;">GREENS AND MEATS</h1>
+      <h1 class="w3-hide-small">Rejoice The Taste Of Life</h1>
+      <p><a href="#Pizzas" class="w3-button w3-black w3-padding-large w3-large">Order Now</a></p>
+    </div>
+  </div>
+  <br>
+  <br>
+
+  <div class="w3-container w3-text-grey" id="Pizzas">
+  </div>
+
+  <!-- Product grid -->
+  <div class="w3-row">
+    <div class="w3-col l3 s6">
+	<div class="w3-container">
+      <div class="w3-display-container">
+        <img src="pizza.jpg" style="width:110%">
+		<div class="w3-display-middle w3-display-hover">
+            <button class="w3-button w3-black">Order now <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        <p><b>VEG PIZZA</b></p>
+      </div>
+    </div>
+	</div>
+ <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <div class="w3-display-container">
+                    <img src="pizzaoffer.jpg" style="width:100%">
+<div class="w3-display-middle w3-display-hover">
+            <button class="w3-button w3-black">Order now <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        <p><b>CHEESE PIZZA</b></p>
+      </div>
+    </div>
+	</div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+	  <div class="w3-display-container">
+        <img src="chickenpizza.png" style="width:100%">
+		<div class="w3-display-middle w3-display-hover">
+            <button class="w3-button w3-black">Order now <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        <p><b>CHICKEN PIZZA</b></p>
+      </div>
+        </div>
+		</div>
+ <div class="w3-col l3 s6">
+      <div class="w3-container">
+	  <div class="w3-display-container">
+        <img src="nonvegsupreme.jpg" style="width:70%">
+		<div class="w3-display-middle w3-display-hover">
+            <button class="w3-button w3-black">Order now <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        <p><b>NON-VEG SUPREME PIZZA</b></p>
+      </div>
+  </div>
+  <br>
+  <br>
+  </div>
+   <div class="w3-container w3-text-grey" id="Desserts">
+  </div>
+  <!-- Product grid -->
+  <div class="w3-row">
+    <div class="w3-col l3 s6">
+	<div class="w3-container">
+      <div class="w3-display-container">
+        <img src="de2.png" style="width:95%">
+		<div class="w3-display-middle w3-display-hover">
+            <button class="w3-button w3-black">Order now <i class="fa fa-shopping-cart"></i></button>
+          </div>
+		  <p><b>LEMON DESSERT</b></p>
+		  </div>
+		  </div>
+    </div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <div class="w3-display-container">
+                    <img src="de1.png" style="width:110%">
+<div class="w3-display-middle w3-display-hover">
+            <button class="w3-button w3-black">Order now <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        <p><b>BROWNIE CHEESECKAKE</b></p>
+      </div>
+    </div>
+	</div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+	  <div class="w3-display-container">
+        <img src="de3.png" style="width:110%">
+		<div class="w3-display-middle w3-display-hover">
+            <button class="w3-button w3-black">Order now <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        <p><b>HEAVENLY OREO DESSERT</b></p>
+      </div>
+        </div>
+		</div>
+ <div class="w3-col l3 s6">
+      <div class="w3-container">
+	  <div class="w3-display-container">
+        <img src="de4.png" style="width:110%">
+		<div class="w3-display-middle w3-display-hover">
+            <button class="w3-button w3-black">Order now <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        <p><b>MOLTEN CHOCOLATE WRAP DESSERT</b></p>
+      </div>
+	  </div>
+  </div>
+  </div>
+<br>
+<br> 
+ <div class="w3-container w3-text-grey" id="Milkshakes">
+  </div>
+<!-- Product grid -->
+  <div class="w3-row">
+    <div class="w3-col l3 s6">
+	<div class="w3-container">
+      <div class="w3-display-container">
+        <img src="tim-tam-crazy shake.jpg" style="width:110%" height="48%">
+		<div class="w3-display-middle w3-display-hover">
+            <button class="w3-button w3-black">Order now <i class="fa fa-shopping-cart"></i></button>
+          </div>
+		  <p><b>TIM TAM CRAZY SHAKE</b></p>
+		  </div>
+		  </div>
+    </div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <div class="w3-display-container">
+                    <img src="mi2.png" style="width:110%">
+<div class="w3-display-middle w3-display-hover">
+            <button class="w3-button w3-black">Order now <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        <p><b>STRAWBERRY MILKSHAKE</b></p>
+      </div>
+    </div>
+	</div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+	  <div class="w3-display-container">
+        <img src="mi3.png" style="width:110%">
+		<div class="w3-display-middle w3-display-hover">
+            <button class="w3-button w3-black">Order now <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        <p><b>CRISPY CHOCO CHIPS SHAKE</b></p>
+      </div>
+        </div>
+		</div>
+ <div class="w3-col l3 s6">
+      <div class="w3-container">
+	  <div class="w3-display-container">
+        <img src="nutella-milkshake-nutella-fudge.jpg" style="width:110%">
+		<div class="w3-display-middle w3-display-hover">
+            <button class="w3-button w3-black">Order now <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        <p><b>NUTELLA FUDGE</b></p>
+      </div>
+	  </div>
+  </div>
+  </div>
+<br>
+<br> 
+  <div class="w3-container w3-text-grey" id="Burgers">
+  </div>
+
+  <!-- Product grid -->
+  <div class="w3-row">
+    <div class="w3-col l3 s6">
+	<div class="w3-container">
+      <div class="w3-display-container">
+        <img src="burger.jpg" style="width:110%">
+		<div class="w3-display-middle w3-display-hover">
+            <button class="w3-button w3-black">Order now <i class="fa fa-shopping-cart"></i></button>
+          </div>
+		  <p><b>VEG BURGERS</b></p>
+		  </div>
+		  </div>
+    </div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <div class="w3-display-container">
+                    <img src="Bacon Blue Cheese Burger with Caramelized Onions.jpg" style="width:100%">
+<div class="w3-display-middle w3-display-hover">
+            <button class="w3-button w3-black">Order now <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        <p><b>BACON BLUE CHEESE WITH CARAMELIZED ONIONS</b></p>
+      </div>
+    </div>
+	</div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+	  <div class="w3-display-container">
+        <img src="chickenburger.jpg" style="width:100%">
+		<div class="w3-display-middle w3-display-hover">
+            <button class="w3-button w3-black">Order now <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        <p><b>CHICKEN BURGER</b></p>
+      </div>
+        </div>
+		</div>
+ <div class="w3-col l3 s6">
+      <div class="w3-container">
+	  <div class="w3-display-container">
+        <img src="blackbeanburger.jpg" style="width:100%">
+		<div class="w3-display-middle w3-display-hover">
+            <button class="w3-button w3-black">Order now <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        <p><b>BLACK BEAN BURGER</b></p>
+      </div>
+	  </div>
+  </div>
+  </div>
+  <br>
+  <br>
+  
+  
+   <div class="w3-container w3-text-grey" id="Cakes">
+  </div>
+<!-- Product grid -->
+  <div class="w3-row">
+    <div class="w3-col l3 s6">
+	<div class="w3-container">
+      <div class="w3-display-container">
+        <img src="black.jpg" style="width:110%" height="35%">
+		<div class="w3-display-middle w3-display-hover">
+            <button class="w3-button w3-black">Order now <i class="fa fa-shopping-cart"></i></button>
+          </div>
+		  <p><b>BLACK FOREST</b></p>
+		  </div>
+		  </div>
+    </div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <div class="w3-display-container">
+                    <img src="redvelvetcake.jpg" style="width:110%" height="35%">
+<div class="w3-display-middle w3-display-hover">
+            <button class="w3-button w3-black">Order now <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        <p><b>RED VELVET</b></p>
+      </div>
+    </div>
+	</div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+	  <div class="w3-display-container">
+        <img src="icecake.jpg" style="width:110%" height="35%">
+		<div class="w3-display-middle w3-display-hover">
+            <button class="w3-button w3-black">Order now <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        <p><b>ICE CAKE</b></p>
+      </div>
+        </div>
+		</div>
+ <div class="w3-col l3 s6">
+      <div class="w3-container">
+	  <div class="w3-display-container">
+        <img src="chocolatecake.jpg" style="width:110%" height="35%">
+		<div class="w3-display-middle w3-display-hover">
+            <button class="w3-button w3-black">Order now <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        <p><b>CHOCO TRUFFLE</b></p>
+      </div>
+	  </div>
+  </div>
+  </div>
+<br>
+<br> 
+  <!-- Subscribe section -->
+  <div class="w3-container w3-black w3-padding-32">
+    <h1>Subscribe</h1>
+    <p>To get special offers and VIP treatment:</p>
+    <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+    <button type="button" class="w3-button w3-red w3-margin-bottom">Subscribe</button>
+  </div>
+  
+  <!-- Footer -->
+  <footer class="w3-padding-64 w3-light-grey w3-small w3-center" id="footer">
+    <div class="w3-row-padding">
+
+      <div class="w3-col">
+        <h4>Store</h4>
+        <p><i class="fa fa-fw fa-map-marker"></i> GREENS AND MEATS</p>
+		<p> COIMBATORE | VELLORE | CHENNAI | SALEM | TRICHY </p>
+        <p><i class="fa fa-fw fa-phone"></i> 9997776660</p>
+        <p><i class="fa fa-fw fa-envelope"></i> myfeedback.greensandmeats.com</p>
+        <h4>We accept</h4>
+        <p><i class="fa fa-fw fa-cc-amex"></i> Amex</p>
+        <p><i class="fa fa-fw fa-credit-card"></i> Credit Card</p>
+        <br>
+		FOLLOW US ON:
+        <i class="fa fa-facebook-official w3-hover-opacity w3-large"></i>
+        <i class="fa fa-instagram w3-hover-opacity w3-large"></i>
+        <i class="fa fa-snapchat w3-hover-opacity w3-large"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity w3-large"></i>
+        <i class="fa fa-twitter w3-hover-opacity w3-large"></i>
+        <i class="fa fa-linkedin w3-hover-opacity w3-large"></i>
+      </div>
+    </div>
+  </footer>
+  <!-- End page content -->
+</div>
+
+<!-- Newsletter Modal -->
+<div id="newsletter" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom" style="padding:32px">
+    <div class="w3-container w3-white w3-center">
+      <i onclick="document.getElementById('newsletter').style.display='none'" class="fa fa-remove w3-right w3-button w3-transparent w3-xxlarge"></i>
+      <h2 class="w3-wide">NEWSLETTER</h2>
+      <p>Join our mailing list to receive updates on deals of the day and special offers.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('newsletter').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// Accordion 
+function myAccFunc() {
+    var x = document.getElementById("demoAcc");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+// Click on the "Jeans" link on page load to open the accordion for demo purposes
+document.getElementById("myBtn").click();
+
+
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
