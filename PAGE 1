@@ -1,0 +1,388 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+.hero-image {
+  background-image: url("1pageveg.jpg");
+  height: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-image {
+    opacity: 0.7;
+    filter: alpha(opacity=20); /* For IE8 and earlier */
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: MediumVioletRed;
+   .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+}
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:visited {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+</style>
+</head>
+<body>
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:60px">GREENS AND MEATS</h1>
+    <h2 style="color:black;">Rejoice The Taste Of Life</h2>
+	<br>
+	<br>
+	<div class="w3-display-bottom w3-padding">
+    <span class="w3-tag w3-xlarge">Open from 10am to 11pm</span>
+  </div>
+  </div>
+</div>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Deals</a></li>
+		<li><a href="orderform.html">Online Orders</a></li>
+        <li><a href="#">Contact</a></li>
+<li><a href="form.html">Rate Us</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-envelope"></span>Mail</a></a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Order Food</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<h1 style="color:Crimson; font-size:50px; text-align=center;"><i>PREFER YOUR TASTE IN VEGETARIAN STYLE</i></h2>
+<h1 style="text-align:center; color:blue;">Food- Taste Of Good Life</h1>
+<h3 style="text-align=justify;">Variety is the spice of life and our collection of vegetarian recipes gives you plenty of that!.we offer you plenty of unbeatable zesty cuisines that will grave you more again and again. </h3>
+<div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+	<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="southindian.jpg" alt="food" width="100%">
+	<script>
+function bigImg(x) {
+    x.style.height = "250px";
+    x.style.width = "350px";
+}
+
+function normalImg(x) {
+    x.style.height = "200px";
+    x.style.width = "300px";
+}
+</script>
+	  <h4>SOUTH-INDIAN</h4>
+      <h5>The Perfect Cuisine for your Hunger</h5>
+    </div>
+<div class="w3-quarter">
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="northindian.jpg" alt="food" width="100%">
+	<script>
+function bigImg(x) {
+    x.style.height = "250px";
+    x.style.width = "350px";
+}
+
+function normalImg(x) {
+    x.style.height = "200px";
+    x.style.width = "300px";
+}
+</script>
+	  <h4>NORTH-INDIAN</h4>
+      <h5>Perfect zesty food to grave your craving</h5>
+    </div>
+    <div class="w3-quarter">
+      <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="chi.jpg" alt="food" width="100%">
+	<script>
+function bigImg(x) {
+    x.style.height = "250px";
+    x.style.width = "350px";
+}
+
+function normalImg(x) {
+    x.style.height = "200px";
+    x.style.width = "300px";
+}
+</script>
+	  <h4>CHINESE</h4>
+      <h5>A Real Nice Classic one</h5>
+    </div>
+	</div>
+<h1 style="color:Red; font-size:45px; text-align:left;"><i>CLICK IT TASTE IT!!!</i></h1>
+
+	<h2 style="color:DarkMagenta; font-size:40px; text-align:center;"><b>South-Indian Cuisine</b></h2>
+	
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="panel panel-primary">
+        <div class="panel-heading">DOSA</div>
+        <div class="panel-body"><a href="https://www.indiamart.com/proddetail/dosa-varieties-6970864148.html"><img src="dosacut.PNG" class="img-responsive" style="width:100%" alt="Image"></a></div>
+        
+      </div>
+    </div>
+    <div class="col-sm-3"> 
+      <div class="panel panel-danger">
+        <div class="panel-heading">IDLY</div>
+        <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="idlycut.PNG" class="img-responsive" style="width:95%" alt="Image"></a></div>
+        
+      </div>
+    </div>
+    <div class="col-sm-3"> 
+      <div class="panel panel-success">
+        <div class="panel-heading">PONGAL</div>
+        <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="pongal.PNG" class="img-responsive" style="width:150%" alt="Image"></a></div>
+        
+      </div>
+    </div>
+	<div class="col-sm-3"> 
+      <div class="panel panel-warning">
+        <div class="panel-heading">ONION UTHAPPAM</div>
+        <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="uthapam.PNG" class="img-responsive" style="width:100%" alt="Image"></a></div>
+        
+      </div>
+    </div>
+  </div>
+</div><br>
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="panel panel-primary">
+        <div class="panel-heading">BIRIYANI</div>
+        <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="biriyani.PNG" class="img-responsive" style="width:100%" alt="Image"></a></div>
+       
+      </div>
+    </div>
+    <div class="col-sm-3"> 
+      <div class="panel panel-danger">
+        <div class="panel-heading">LEMON RICE</div>
+        <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="lemonrice.PNG" class="img-responsive" style="width:100%" alt="Image"></a></div>
+        
+      </div>
+    </div>
+     <div class="col-sm-3"> 
+          <div class="panel panel-success">
+        <div class="panel-heading">PULAO</div>
+        <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="pulav.PNG" class="img-responsive" style="width:100%" alt="Image"></a></div>
+        
+      </div>
+    </div>
+	<div class="col-sm-3"> 
+          <div class="panel panel-warning">
+        <div class="panel-heading">VADAS AND PAKKODAS</div>
+        <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="vadas.PNG" class="img-responsive" style="width:90%" alt="Image"></a></div>
+        
+      </div>
+    </div>
+	 </div>
+</div><br>
+<h2 style="color:DarkMagenta; font-size:40px; text-align:center;"><b>North-Indian Cuisine</b></h2>
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="panel panel-primary">
+        <div class="panel-heading">SPRING ROLLS</div>
+        <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="spring-rolls.jpg" class="img-responsive" style="width:100%" alt="Image"></a></div>
+       
+      </div>
+    </div>
+    <div class="col-sm-3"> 
+      <div class="panel panel-danger">
+        <div class="panel-heading">PAROTA</div>
+        <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="parota.jpg" class="img-responsive" style="width:100%" alt="Image"></a></div>
+        
+      </div>
+    </div>
+    <div class="col-sm-3"> 
+      <div class="panel panel-success">
+        <div class="panel-heading">NAAN</div>
+        <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="naan.jpg" class="img-responsive" style="width:150%" alt="Image"></a></div>
+        
+      </div>
+    </div>
+	<div class="col-sm-3"> 
+      <div class="panel panel-warning">
+        <div class="panel-heading">KULCHA</div>
+        <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="kulcha.jpeg" class="img-responsive" style="width:90%" alt="Image"></a></div>
+        
+      </div>
+    </div>
+  </div>
+</div><br>
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="panel panel-primary">
+        <div class="panel-heading">CHAPPATHI</div>
+        <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="chapathi.jpg" class="img-responsive" style="width:100%" alt="Image"></a></div>
+       
+      </div>
+    </div>
+    <div class="col-sm-3"> 
+      <div class="panel panel-danger">
+        <div class="panel-heading">POORI</div>
+        <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="poori.jpg" class="img-responsive" style="width:100%" "height:150%" alt="Image"></a></div>
+        
+      </div>
+    </div>
+     <div class="col-sm-3"> 
+          <div class="panel panel-success">
+        <div class="panel-heading">PULAO</div>
+        <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="pulav.PNG" class="img-responsive" style="width:150%" alt="Image"></a></div>
+        
+      </div>
+    </div>
+	<div class="col-sm-3"> 
+          <div class="panel panel-warning">
+        <div class="panel-heading">FRIED RICE</div>
+        <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="friedricecut.PNG"Ē class="img-responsive" style="width:100%;" alt="Image"></a></div>
+        
+      </div>
+    </div>
+	 </div>
+</div><br>
+<h2 style="color:DarkMagenta; font-size:40px; text-align:center;"><b>Chinese Cuisine</b></h2>
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="panel panel-primary">
+        <div class="panel-heading">NOODLES</div>
+        <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="noodlescut.jpg" class="img-responsive" style="width:100%" alt="Image"></a></div>
+       
+      </div>
+    </div>
+    <div class="col-sm-3"> 
+      <div class="panel panel-danger">
+        <div class="panel-heading">VEGETABLE CHOWMEIN</div>
+       <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="vegetablechowmein.jpg" class="img-responsive" style="width:300%" alt="Image"></a></div>
+        
+      </div>
+    </div>
+    <div class="col-sm-3"> 
+      <div class="panel panel-success">
+        <div class="panel-heading">CRISPY FRIED VEGETABLES</div>
+        <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="crispyfriedvegetables.jpg" class="img-responsive" style="width:150%" alt="Image"></a></div>
+        
+      </div>
+    </div>
+	<div class="col-sm-3"> 
+      <div class="panel panel-warning">
+        <div class="panel-heading">SCHEZUAN NOODLES</div>
+        <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="schezuannoodles.jpg" class="img-responsive" style="width:100%" alt="Image"></a></div>
+        
+      </div>
+    </div>
+  </div>
+</div><br>
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="panel panel-primary">
+        <div class="panel-heading">HAKKA NOODLES</div>
+        <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="hakkanoodles.jpg" class="img-responsive" style="width:100%" alt="Image"></a></div>
+       
+      </div>
+    </div>
+    <div class="col-sm-3"> 
+      <div class="panel panel-danger">
+        <div class="panel-heading">CHINESE DRYMANCHURIAN</div>
+        <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="chinesedrymanchurian.jpg" class="img-responsive" style="width:100%" "height:150%" alt="Image"></a></div>
+        
+      </div>
+    </div>
+     <div class="col-sm-3"> 
+          <div class="panel panel-success">
+        <div class="panel-heading">SCHEZUAN FRIEDRICE</div>
+        <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="schezuanfriedrice.jpg" class="img-responsive" style="width:150%" alt="Image"></a></div>
+        
+      </div>
+    </div>
+	<div class="col-sm-3"> 
+          <div class="panel panel-warning">
+        <div class="panel-heading">PANEER PARCELS</div>
+        <div class="panel-body"><a href="http://www.livechennai.com/saravanabhavan_hotel_menu_price_list.asp"><img src="paneerparcels.jpg" class="img-responsive" style="width:100%;" alt="Image"></a></div>
+        
+      </div>
+    </div>
+	 </div>
+</div><br>
+<div class="w3-container w3-black w3-padding-32">
+    <h1>Subscribe</h1>
+    <p>To get special offers and Free Coupons:</p>
+    <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+    <button type="button" class="w3-button w3-red w3-margin-bottom">Subscribe</button>
+  </div>
+  
+  <!-- Footer -->
+  <footer class="w3-padding-64 w3-light-grey w3-small w3-center" id="footer">
+    <div class="w3-row-padding">
+
+      <div class="w3-col">
+        <h4>Store</h4>
+        <p><i class="fa fa-fw fa-map-marker"></i> GREENS AND MEATS</p>
+		<p> COIMBATORE | VELLORE | CHENNAI | SALEM | TRICHY </p>
+        <p><i class="fa fa-fw fa-phone"></i> 9997776660</p>
+        <p><i class="fa fa-fw fa-envelope"></i> info@greensandmeats.com</p>
+        <h4>We accept</h4>
+        <p><i class="fa fa-fw fa-cc-amex"></i> Amex</p>
+        <p><i class="fa fa-fw fa-credit-card"></i> Credit Card</p>
+        <br>
+		FOLLOW US ON:
+        <i class="fa fa-facebook-official w3-hover-opacity w3-large"></i>
+        <i class="fa fa-instagram w3-hover-opacity w3-large"></i>
+        <i class="fa fa-snapchat w3-hover-opacity w3-large"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity w3-large"></i>
+        <i class="fa fa-twitter w3-hover-opacity w3-large"></i>
+        <i class="fa fa-linkedin w3-hover-opacity w3-large"></i>
+      </div>
+    </div>
+  </footer>
+  <!-- End page content -->
+</div>
+
+
+
+</body>
+</html>
